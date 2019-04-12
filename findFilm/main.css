@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url("https://thichanhdep.com/wp-content/uploads/2018/06/Chia-s%E1%BA%BB-b%E1%BB%99-h%C3%ACnh-n%E1%BB%81n-g%C3%A1i-xinh-full-hd3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+} 
+.film{
+    text-align: left;
+}
+.name{
+    font-size: 22px;
+    margin: 0;
+}
+.poster{
+    height: 40%;
+    width: 40%;
+}
