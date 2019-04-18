@@ -10,7 +10,7 @@ $(document).ready(() => {
             menu.append('<h1 class="kindOfF">' + val.categoryType + '</h1>');
             menu.append('<div class="ribbons">');
             $.each(val.items, (key, value) => {
-                $('.ribbons').append('<div> <img src="' + value.poster + '"class="posterHome"></div>')
+                $('.ribbons').append('<div class="posterPlace"> <img src="' + value.poster + '"class="posterHome"></div>')
             })
             menu.append('</div>');
         })

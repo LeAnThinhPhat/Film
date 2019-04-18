@@ -3,7 +3,7 @@
     padding: 0;
     background-color: black;
 }
-
+/* home */
 .autoplay {
     display: grid;
     height: 100%;
@@ -14,7 +14,16 @@
     max-height: 100vh;
     margin: auto;
 }
+.posterHome{
+    opacity: 0.8;
+    height: 60%;
+    width: 60%;
+}
+.posterHome:hover{
+    opacity: 1.0;
+}
 
+/* icon menu */
 .top-animate {
     background: #fff !important;
     top: 13px !important;
@@ -75,7 +84,7 @@
     top: 0;
     left: 0;
 }
-
+/* menu */
 .menu {
     font-family: inherit;
     top: 0;
@@ -87,6 +96,7 @@
     height: 100%;
     background-blend-mode: lighten;
     width: 23%;
+    opacity: 0.6;
 }
 
 .menu li {
@@ -108,7 +118,7 @@
 
     border-bottom: 1px solid white;
 }
-
+/* search */
 .film {
     text-align: left;
 }
@@ -145,9 +155,4 @@
 .nameSearch{
     color: white;
 }
-.posterHome{
-    height: 60%;
-    width: 60%;
-}
-
 
