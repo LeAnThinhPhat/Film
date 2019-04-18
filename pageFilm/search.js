@@ -1,6 +1,8 @@
 $(document).ready(function () {
-    $('#search').keyup(()=>myFunction())})
-    
+    setTimeout(()=>{
+        $('#search').keyup(()=>myFunction())})
+    },2000)
+   
 function myFunction() {
     $("td").remove();
     $("tr").remove();

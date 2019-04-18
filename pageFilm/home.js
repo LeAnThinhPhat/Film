@@ -10,7 +10,7 @@ $(document).ready(() => {
             menu.append('<h1 class="kindOfF">' + val.categoryType + '</h1>');
             menu.append('<div class="ribbons">');
             $.each(val.items, (key, value) => {
-                $('.ribbons').append('<div class="poster"> <img src="' + value.poster + '"></div>')
+                $('.ribbons').append('<div> <img src="' + value.poster + '"class="posterHome"></div>')
             })
             menu.append('</div>');
         })
@@ -24,8 +24,8 @@ $(document).ready(() => {
 
             $('.ribbons').slick({
                 infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 3
+                slidesToShow: 5,
+                slidesToScroll: 1,
             });
     })
 })
